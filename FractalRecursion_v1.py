@@ -24,9 +24,9 @@ import numpy as np
 
 
 DEFAULTS = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4702_k82.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_2973.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_plus_1729.csv",
+    "/data/loto7_4702_k82.csv",
+    "/data/loto7_4702_k82_loto_2973.csv",
+    "/data/loto7_4702_k82_loto_plus_1729.csv",
 )
 
 WINDOWS = (1, 4, 8, 16, 32)
@@ -985,7 +985,7 @@ if __name__ == "__main__":
 
 
 """
-/Users/4c/Desktop/GHQ/data/loto7_4702_k82.csv
+/data/loto7_4702_k82.csv
 Redova=4702; poslednja=(8, 10, 13, 21, 22, 23, 32)
 Validacija (24, 2): 1.3750
 Validacija (48, 2): 1.2917
@@ -997,14 +997,14 @@ Distribucija pogodaka 0..7: [12, 22, 22, 7, 1, 0, 0, 0]
 3+=8/64; 4+=1/64
 Razlicitih predikcija=60/64; istorijskih ponavljanja=28/64; nizova 5+=0
 Naucene tezine skala: {1: 0.271366, 4: 0.195882, 8: 0.108914, 16: 0.109727, 32: 0.31411}
-NEXT red 4703: 4,9,14,16,19,24,32
+NEXT red 4703: 4,x,14,y,19,z,32
 NEXT postoji u istoriji: True
 NEXT najduzi niz: 1
 NEXT brojeva <=19: 5
 
 
 
-/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_2973.csv
+/data/loto7_4702_k82_loto_2973.csv
 Redova=2973; poslednja=(1, 2, 8, 26, 29, 35, 39)
 Validacija (24, 2): 1.1875
 Validacija (48, 2): 1.1250
@@ -1016,14 +1016,14 @@ Distribucija pogodaka 0..7: [16, 18, 21, 8, 1, 0, 0, 0]
 3+=9/64; 4+=1/64
 Razlicitih predikcija=49/64; istorijskih ponavljanja=64/64; nizova 5+=0
 Naucene tezine skala: {1: 0.234481, 4: 0.188346, 8: 0.123557, 16: 0.17496, 32: 0.278655}
-NEXT red 2974: 1,8,18,19,30,33,39
+NEXT red 2974: 1,x,18,y,30,z,39
 NEXT postoji u istoriji: True
 NEXT najduzi niz: 2
 NEXT brojeva <=19: 4
 
 
 
-/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_plus_1729.csv
+/data/loto7_4702_k82_loto_plus_1729.csv
 Redova=1729; poslednja=(8, 10, 13, 21, 22, 23, 32)
 Validacija (24, 2): 1.2500
 Validacija (48, 2): 0.9792
@@ -1035,7 +1035,7 @@ Distribucija pogodaka 0..7: [13, 24, 18, 9, 0, 0, 0, 0]
 3+=9/64; 4+=0/64
 Razlicitih predikcija=58/64; istorijskih ponavljanja=24/64; nizova 5+=0
 Naucene tezine skala: {1: 0.244552, 4: 0.242704, 8: 0.130619, 16: 0.181702, 32: 0.200422}
-NEXT red 1730: 1,3,7,17,24,25,32
+NEXT red 1730: 1,x,7,y,24,z,32
 NEXT postoji u istoriji: True
 NEXT najduzi niz: 2
 NEXT brojeva <=19: 4
